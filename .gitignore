@@ -1,3 +1,19 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnail cache files
+._*
+
+# Files that might appear on external volumes
+.Spotlight-V100
+.Trashes
+
+# Icon?
+.DocumentRevisions-V100
+.fseventsd
+
 # Logs
 logs
 *.log
@@ -121,6 +137,9 @@ dist
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
+
+# VS Code workspace settings (если хочешь игнорировать настройки воркспейса)
+.vscode/
 
 # yarn v2
 .yarn/cache
